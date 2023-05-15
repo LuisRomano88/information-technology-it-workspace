@@ -589,8 +589,172 @@
 .footer_routes_navigation div:nth-child(1){
     display: none;
 }
+/*<<<<<<< HEAD */
+@media (max-width: 767px) {
+  
+}
+
+/* ################ MEDIA QUERY - Tablet and Desktop - ################ */
+
+@media(min-width: 768px) {
+  /* Sección Navbar */
+
+  .navbar-contenedor-principal {
+    background-color: var(--color-dos);
+  }
+
+  .navbar-brand-logo {
+    left: 100px;
+  }
+
+  .navbar-brand-logo {
+    left: 100px;
+  }
+
+  .navbar-contenedor {
+    padding-top: 20px;
+
+  }
+
+  .bg-body-tertiary {
+    --bs-bg-opacity: 0;
+
+  }
+
+  .navbar-titulo {
+    margin-left: 0;
+    font-family: var(--font-family-lato);
+    color: var(--color-uno);
+  }
+
+  .navbar-logo {
+    margin-left: var(--margin-left)
+  }
+
+  .navbar-contenido {
+    font-family: var(--font-family-lato);
+    margin-right: 13.06%;
+
+  }
+
+  .navbar-link {
+    color: var(--color-uno);
+  }
+
+  .navbar-about-us {
+    margin-right: 61px;
+  }
+
+  .navbar-home {
+    margin-right: 24px;
+  }
+
+  .navbar-need-help {
+    margin-right: 16px;
+    color: var(--color-uno);
+    border: 2px solid var(--color-uno);
+    background-color: transparent;
+    border-radius: 8px;
+    padding: 0px 34px;
+  }
+
+  .navbar-donate {
+    color: var(--color-uno);
+    border-radius: 8px;
+    font-weight: 700;
+    color: var(--color-dos);
+    background-color: var(--color-tres);
+    padding: 0px 34px;
+  }
+
+  .contenedor-idiomas {
+    margin-top: 20px;
+  }
+
+  .navbar-ikp {
+    color: var(--color-uno);
+    border-radius: 8px 0 0 8px;
+    font-weight: 700;
+    color: rgba(0, 0, 0, 0.7);
+    background-color: var(--color-uno);
+    width: 67.742px;
+    border: 0;
+  }
+
+  .navbar-en {
+    color: var(--color-uno);
+    border-radius: 0 8px 8px 0;
+    font-weight: 700;
+    color: var(--color-dos);
+    background-color: var(--color-tres);
+    width: 67.742px;
+    border: 0;
+  }
+
+  /*Seccion About Us que contiene la imagen de fondo*/
+
+  .about-us-imagen img {
+    z-index: -1;
+    position: relative;
+    background: rgba(0, 52, 125, 0.75);
+
+  }
+
+  .about-us-text {
+    width: 40%;
+    position: relative;
+    bottom: 500px;
+    left: 180px;
+  }
+
+  .about-us-titulo {
+    color: var(--color-tres);
+    font-size: 100px;
+    font-weight: 700;
+    font-family: 'Lato';
+    text-shadow: 0 0 5px #000000;
+
+  }
+
+
+  .about-us-parrafo {
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Poppins';
+    text-shadow: 0 0 5px #000000;
+
+  }
+
+  .about-us-parrafo strong {
+    font-size: 27px;
+    font-weight: bold;
+  }
+
+
+  /* efecto wave*/
+
+  .wave {
+    width: 100%;
+    height: 50%;
+    position: absolute;
+    margin-top: -985px;
+
+  }
+
+  .wave-1 {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    margin-top: 460px;
+    background-image: url(../Image/wave2.svg);
+  }
+
+  /*.about-us-history-container {
+
+ }*/
 
 .footer_routes_navigation {
+
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -1238,4 +1402,5 @@
   .About-Us-Diego-Pardo-button-buton{
     background-image: url(../Image/boton_chatbot.png);
   }
+}
 }
