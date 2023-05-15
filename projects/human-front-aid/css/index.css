@@ -440,6 +440,7 @@
 }
 
 /* Seccion Press & News */
+.press{
   margin-left: var(--margin-left);
   font-family: var(--font-family-lato);
   font-weight: 700;
