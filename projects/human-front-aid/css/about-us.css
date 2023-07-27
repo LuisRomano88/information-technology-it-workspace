@@ -426,7 +426,6 @@ a {
 
 /* Footer - Contenedor principal */
 
-
 .footer_container {
     display: flex;
     width: 100%;
@@ -532,7 +531,6 @@ a {
   .footer_routes_container_home_navigation {
     display: flex;
     justify-content: space-between;
-    width: 59vw;
   }
   
   .footer_routes_home-aboutUs {
@@ -546,6 +544,7 @@ a {
     position: relative;
     bottom: 0.6em;
   }
+  
   
 
 /* ┌─────────────────────────────────────────────────────────┐ */
